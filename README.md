@@ -2,7 +2,7 @@
 Demo integrating React into Django
 
 --- 
-## Install Dependancies 
+## How to run application server
 
 Clone this repo locally in the terminal by typing: 
 ```
@@ -27,3 +27,5 @@ To run the server:
 ```
 python manage.py runserver
 ```
+
+Go to any browser and go to ```localhost:8000``` and start exploring!
