@@ -6,7 +6,7 @@ Demo integrating React into Django
 
 Clone this repo locally in the terminal by typing: 
 ```
-git clone https://github.com/Jimmycheong/django-react-boilerplate.git
+git clone https://github.com/Jimmycheong/django-react-demo.git
 ```
 Next, use ```migrate``` to setup the database file. The ```repopulate``` management command populates the database with data.
 ```
