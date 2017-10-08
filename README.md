@@ -1,5 +1,6 @@
 # django-react-demo
-Demo integrating React into Django
+
+The following demo can be used as a boilerplate example on how to integrate ReactJS into a Django application. It uses Django REST framework to set up api view functions and serialization of data. 
 
 --- 
 ## How to run application server
