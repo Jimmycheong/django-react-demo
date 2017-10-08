@@ -9,9 +9,11 @@ Clone this repo locally in the terminal by typing:
 git clone https://github.com/Jimmycheong/django-react-demo.git
 ```
 
-Enter the directory and install the necessary dependancies:
+Enter the directory, make a virtual environment and install the necessary dependancies:
 ```
 cd django-react-demo/django_react
+virtualenv env
+source env/bin/activate
 pip install -r requirements.txt
 ```
 
@@ -19,4 +21,9 @@ Next, use ```migrate``` to setup the database file. The ```repopulate``` managem
 ```
 python manage.py migrate
 python manage.py repopulate
+```
+
+To run the server: 
+```
+python manage.py runserver
 ```
