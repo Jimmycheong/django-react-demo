@@ -29,3 +29,5 @@ python manage.py runserver
 ```
 
 Go to ```localhost:8000``` on any browser and start exploring!
+
+![screen shot 2017-10-08 at 19 30 07](https://user-images.githubusercontent.com/22529514/31319650-371a0de8-ac5f-11e7-85e0-457d33494b4f.jpg)
