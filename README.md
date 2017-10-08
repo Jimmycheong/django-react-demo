@@ -28,4 +28,4 @@ To run the server:
 python manage.py runserver
 ```
 
-Go to any browser and go to ```localhost:8000``` and start exploring!
+Go to ```localhost:8000``` on any browser and start exploring!
