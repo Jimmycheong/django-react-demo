@@ -9,6 +9,7 @@ class TVShow(models.Model):
     seasons = models.IntegerField()
     episodes = models.IntegerField()
     release_date = models.DateTimeField(blank=True, null=True)
+    logo = models.ImageField(blank=True, null=True)
 
     class Meta:
         ordering = ('created',)

@@ -16,17 +16,40 @@ class Component extends React.Component {
     }
 
     render() {
+
+        var imgStyle = {
+            height: "400px",
+            width: "100%",
+        }
+
+        var cardStyle = {
+            padding:"5px",
+        }
+
         var data = this.state.tv_shows
         var dataList = data.map(function (object, index) {
             return ( 
-                <li className = "list-group-item" key= {index.toString()}>
-                    {object.title}
-                </li>
+            <div className="col s12 m6" key={index.toString()} style={cardStyle}>
+              <div className="card">
+                <div className="card-image">
+                  <img src={object.logo} style={imgStyle}/>
+                  <span className="card-title">{object.title}</span>
+                </div>
+                <div className="card-content">
+                <p>Missing description</p>
+                </div>
+                <div className="card-action">
+                  <a href="#">This is a link</a>
+                </div>
+              </div>
+            </div>
             )
         })
 
         return (
+        <div className="row">
             <div>{dataList}</div>
+        </div>
         )
 
     }

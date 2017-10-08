@@ -5,6 +5,6 @@ class TVShowSerializer(serializers.ModelSerializer):
 
     class Meta: 
         model = TVShow
-        fields = ('title', 'category', 'seasons', 'episodes', 'release_date')
+        fields = ('title', 'category', 'seasons', 'episodes', 'release_date', 'logo')
 
     
